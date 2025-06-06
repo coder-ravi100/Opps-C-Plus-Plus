@@ -22,3 +22,4 @@ int main()
     cout<<"Outside Function  : Obj.data = "<<obj.data<<endl;
     return 0;
 }
+/*Doubt*/
