@@ -1,16 +1,19 @@
 #include<iostream>
 using namespace std;
-class student//class
+class demo
 {
-    public://Accessible public
-    int roll = 101;
-    string name = "Ravi";
+    public:
+    int roll;
+    string name;
 };
 int main()
 {
-    student s;// 'S' object
-    cout<<"\n Roll Number = "<<s.roll;
-    cout<<"\n Name ="<<s.name;
-
+    demo d;
+    cout<<"\n Enter the Roll Number =";
+    cin>>d.roll;
+    cout<<"\n Enter the Name =";
+    cin>>d.name;
+    cout<<"\nRoll Number Is = "<<d.roll;
+    cout<<"\nName Is = "<<d.name;
     return 0;
 }
