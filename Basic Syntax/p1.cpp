@@ -1,11 +1,18 @@
+/*
+
+	# ---> pre processor
+	include ---> directive
+	iostream ---> standard library header file
+    namespace ---> conflicts
+    std--->standard
+	int ---> return type
+	main ---> function name
+*/
 #include<iostream>
-using namespace  std;
+using namespace std;
 int main()
 {
     cout<<"Hello C++"<<endl;
-    cout<<"Hello World"<<endl;
-    cout<<"Hello Gujarat"<<endl;
-    cout<<"Hello Ahemdabad"<<endl;
-    cout<<"Tops Carrer Center"<<endl;
+    
     return 0;
 }
