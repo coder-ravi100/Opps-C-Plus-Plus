@@ -9,9 +9,13 @@ class Apple
     {
         cout<<"\n Object Created"<<endl;
     }
+    ~Apple()
+    {
+        cout <<"\n Destructor" <<endl;
+    }
 };
 int main()
 {
-    Apple a;
+    Apple a1,a2,a3;
     return 0;
 }
