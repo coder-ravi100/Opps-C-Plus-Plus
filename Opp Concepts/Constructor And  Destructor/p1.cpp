@@ -1,20 +1,17 @@
-
+/*Level  : Constructor & Destructor
+Create A class with defualt constructor printting "Object Created"*/
 #include<iostream>
 using namespace std;
-class Demo
+class Apple
 {
-    public :
-        Demo()//default constructor
-        {
-            cout<<"\nDemo class constructor";
-        }
-        ~Demo()
-        {
-            cout<<"\nDemo class Destructor";
-        }
+    public:
+    Apple()
+    {
+        cout<<"\n Object Created"<<endl;
+    }
 };
 int main()
 {
-    Demo d1,d2,d3;
+    Apple a;
     return 0;
 }

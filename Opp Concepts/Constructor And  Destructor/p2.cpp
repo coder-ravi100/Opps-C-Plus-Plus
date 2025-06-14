@@ -1,33 +1,21 @@
+/* Deference Between Contructor and Function*/
 #include<iostream>
 using namespace std;
-class Demo
+class Mydemo
 {
-    private :
-        int id;
-        string name;
-    public :
-        Demo(int i,string n)//parameterized constructor
-        {
-            id = i;
-            name = n;
-        }
-        Demo()//default constructor
-        {
-
-        }
-        void display()
-        {
-            cout<<"\nId = "<<id;
-            cout<<"\nName = "<<name;
-        }
+    public:
+    Mydemo()
+    {
+        cout <<"Constructor manually call" <<endl;
+    }
+    void Show()
+    {
+        cout <<"Function Call" <<endl;
+    }
 };
 int main()
 {
-    Demo d1(101,"Rohan");
-    d1.display();
-    Demo d2;
-    Demo d3(102,"Rahul");
-    d2.display();
-    d3.display();
+    Mydemo m; //Constructor auto-call hota hai
+    m.Show();// Function manually call hota hai
     return 0;
 }
