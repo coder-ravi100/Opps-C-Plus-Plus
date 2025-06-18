@@ -11,7 +11,7 @@ class Apple
     }
     ~Apple()
     {
-        cout <<"\n Destructor" <<endl;
+        cout <<"\n Destructor Destroyed Object" <<endl;
     }
 };
 int main()

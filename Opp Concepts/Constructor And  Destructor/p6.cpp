@@ -7,17 +7,16 @@ class demo
     string name;
     demo ()
     {
-        cout  <<"Constructor Called" <<endl;
+        cout  <<"Constructor Called" <<endl;//use memory
     }
     ~demo()
     {
-        cout <<"Destructor Called"  <<endl;
+        cout <<"Destructor Called"  <<endl;//Memory delete
     }
     
 };
 int main()
 {
     demo d1;
-
     return 0;
 }

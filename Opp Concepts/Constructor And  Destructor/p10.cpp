@@ -3,19 +3,19 @@
 using namespace std;
 class calculator
 {
-    public:
-            calculator()
-            {
-                cout <<"\n No Value Provided";
-            }
-            calculator(int a,int b)
-            {
-                cout <<"\n Normal Value Addition Is :" <<a+b;
-            }
-            calculator(float c,float d)
-            {
-                cout <<"\n Point Value Addition Is :" <<c/d;
-            }
+ public:
+        calculator()
+        {
+            cout <<"\n No Value Provided";
+        }
+        calculator(int a,int b)
+        {
+            cout <<"\n Normal Value Addition Is :" <<a+b;
+        }
+        calculator(float c,float d)
+        {
+            cout <<"\n Point Value Addition Is :" <<c+d;
+        }
             
 };
 int main()

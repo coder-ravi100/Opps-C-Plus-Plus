@@ -15,7 +15,7 @@ class Mydemo
 };
 int main()
 {
-    Mydemo m; //Constructor auto-call hota hai
-    m.Show();// Function manually call hota hai
+    Mydemo m1,m2,m3; //Constructor auto-call hota hai
+    m1.Show();// Function manually call hota hai
     return 0;
 }

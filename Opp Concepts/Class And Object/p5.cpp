@@ -24,7 +24,6 @@ class circle
         circumeference = 2 * 3.14 * redius*/
         circumference = 2 * 3.14 * radius;
         cout<<"\n Circumefernce Calculate:"<<circumference<<endl;
-
     }
 };
 int main()

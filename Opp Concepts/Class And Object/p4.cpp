@@ -15,7 +15,7 @@ class Rectangle
     }
     void get()
     {
-       /*Area=length×breadth*/
+       /*Area=length × breadth*/
        int area = length*breadth;
        cout << "\nArea of Rectangle is: " << area;
     }

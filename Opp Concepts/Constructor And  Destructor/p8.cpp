@@ -6,7 +6,7 @@ class student
 public:
         student()
         {
-            cout <<"Defualt Constructor"  <<endl;
+            cout <<"Defualt Constructor" <<endl;
         }
         student(string name)
         {

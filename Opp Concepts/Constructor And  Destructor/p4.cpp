@@ -21,9 +21,9 @@ class Employee
 };
 int main()
 {
-    Employee E1(101);  // Normal constructor
-    Employee E2 = E1; // Copy constructor called
-    E1.display();
-    E2.display();
+    Employee obj1(101);  // Normal constructor
+    Employee obj2 = obj1; // Copy constructor called
+    obj1.display();
+    obj2.display();
     return 0;
 }
