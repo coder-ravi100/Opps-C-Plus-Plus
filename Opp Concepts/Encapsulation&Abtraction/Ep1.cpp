@@ -9,7 +9,7 @@ class BankAccount
     public:
     void showCurent() 
     {
-        cout << "Total Balance:" << balance << endl;
+        cout << "Old Balance:" << balance << endl;
     }
     BankAccount()
     {
@@ -49,8 +49,8 @@ int main()
 {
     BankAccount b1;
     b1.showCurent();
-    b1.Deposite(500.90);
-    b1.withdraw(200.89);
+    b1.Deposite(500);
+    b1.withdraw(200);
     b1.showBalance();
     return 0;
 }
